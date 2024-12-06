@@ -75,7 +75,7 @@ Some features to be implemented:
 - Service version detection 
 
 ## Authors and acknowledgment
-This project was made by SSgt Cooke
+This project was made by Cookie-Monsta-Rulez
 
 ## Acknowledgements: 
 - Smail for getting me started
