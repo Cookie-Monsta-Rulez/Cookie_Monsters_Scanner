@@ -1,15 +1,18 @@
 # Cookie_Monsters_Scanner
 
-![image](https://github.com/user-attachments/assets/0e956fb4-3437-4e79-8497-5fea7254a821)
-
+![alt text](img/393377289-0e956fb4-3437-4e79-8497-5fea7254a821.png)
 
 A simple network scanner built in Python. The goal of this project was to make a scanner that is not necessarily signatured against nmap signatures. Being in Python also allows for quick adjustment on the fly to better evade scanning signatures. By no means is this to replace nmap, but another tool for your toolkit. 
 
 ## Installation
 
 ```
-1. Clone the repository in full, or simply download "Cookie_Monsters_Scanner.py" 
-2. python3 Cookie_Monsters_Scanner.py
+1. git clone --recursive https://github.com/Cookie-Monsta-Rulez/Cookie_Monsters_Scanner.git 
+2. cd Cookie_monster_SCanner.git
+3. python -m virtualenv venv
+4. venv\scripts\activate.bat || source venv/bin/activate
+5. pip install -r requirements.txt
+6. python3 Cookie_Monsters_Scanner.py -h
 ```
 
 ## Technical Specifics
@@ -65,7 +68,7 @@ Have improvements? Want a feature implemented? Please feel free to reach out!
 ```
 
 ## Support
-If you have any suggestions or improvements please feel free to reach out! 
+If you have any suggestions or improvements please feel free to submit a pull request!
 
 ## Roadmap
 Some features to be implemented: 
