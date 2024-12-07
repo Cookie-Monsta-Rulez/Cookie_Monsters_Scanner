@@ -88,6 +88,9 @@ Some features to be implemented:
 ## Authors and acknowledgment
 This project was made by Cookie-Monsta-Rulez
 
+## Contributions
+- TheDyingYAK added compatability and the virtual environment portion 
+
 ## Acknowledgements: 
 - Smail for getting me started
 
