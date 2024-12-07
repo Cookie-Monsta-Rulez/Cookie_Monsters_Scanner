@@ -153,7 +153,7 @@ def main_func():
     parser = argparse.ArgumentParser(
                     prog='Cookie Monster\'s Scanner',
                     description='This program is meant to be a light-weight alternate to nmap. While it does not have nearly as much functionality as nmap, it provides the operator complete understanding and customization of how the connections are made. With the program being built from the ground-up, there is little to signature on in regard to nmap signatures.',
-                    epilog='Have improvements? Want a feature implemented? Please feel free to reach out!',
+                    epilog='Have improvements? Want a feature implemented? Please feel free to submit a pull request!',
                     add_help=False)
     parser.add_argument('-t', '--target', help='Target', metavar=m, required=False)
     parser.add_argument('-b', '--banners', help='Perform Banner Grabbing', action="store_true", required=False)
