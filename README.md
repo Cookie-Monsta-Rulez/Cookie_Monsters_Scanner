@@ -6,6 +6,7 @@ A simple network scanner built in Python. The goal of this project was to make a
 
 ## Installation
 
+Windows:
 ```
 1. git clone --recursive https://github.com/Cookie-Monsta-Rulez/Cookie_Monsters_Scanner.git 
 2. cd Cookie_monster_SCanner.git
@@ -13,6 +14,13 @@ A simple network scanner built in Python. The goal of this project was to make a
 4. venv\scripts\activate.bat || source venv/bin/activate
 5. pip install -r requirements.txt
 6. python3 Cookie_Monsters_Scanner.py -h
+```
+
+Linux: 
+```
+1. git clone --recursive https://github.com/Cookie-Monsta-Rulez/Cookie_Monsters_Scanner.git
+2. cd Cookie_Monsters_Scanner
+3. python3 Cookie_Monsters_Scanner
 ```
 
 ## Technical Specifics
