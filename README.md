@@ -8,19 +8,19 @@ A simple network scanner built in Python. The goal of this project was to make a
 
 Windows:
 ```
-1. git clone --recursive https://github.com/Cookie-Monsta-Rulez/Cookie_Monsters_Scanner.git 
-2. cd Cookie_monster_SCanner.git
-3. python -m virtualenv venv
-4. venv\scripts\activate.bat || source venv/bin/activate
-5. pip install -r requirements.txt
-6. python3 Cookie_Monsters_Scanner.py -h
+git clone --recursive https://github.com/Cookie-Monsta-Rulez/Cookie_Monsters_Scanner.git 
+cd Cookie_monster_Scanner
+python -m virtualenv venv
+venv\scripts\activate.bat || source venv/bin/activate
+pip install -r requirements.txt
+python Cookie_Monsters_Scanner.py -h
 ```
 
 Linux: 
 ```
-1. git clone --recursive https://github.com/Cookie-Monsta-Rulez/Cookie_Monsters_Scanner.git
-2. cd Cookie_Monsters_Scanner
-3. python3 Cookie_Monsters_Scanner
+git clone --recursive https://github.com/Cookie-Monsta-Rulez/Cookie_Monsters_Scanner.git
+cd Cookie_Monsters_Scanner
+python3 Cookie_Monsters_Scanner
 ```
 
 ## Technical Specifics
@@ -34,10 +34,13 @@ A singular ping will be sent to the target, and then if it is online it will be 
  
 It also performs simple banner grabbing if port 80 is specified by using netcat to connect to port 80 and grabbing the banner. 
 
+## Passive Mode
+Passive mode allows for listening on the specified interface. When desired, "ctrl + S" can be pressed to ask if the detected IP addresses should be scanned. The IP addresses will be scanned against the ports specified. 
+
 ## Usage
 
 ```
-python3 Cookie_Monsters_Scanner.py -t <target network>/<cidr> -p <ports>,<Comma>,<separated> -b -o <outfile>
+python Cookie_Monsters_Scanner.py -t <target network>/<cidr> -p <ports>,<Comma>,<separated> -b -o <outfile>
 ```
 
 ## Help
