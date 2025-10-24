@@ -20,6 +20,9 @@ Linux:
 ```
 git clone --recursive https://github.com/Cookie-Monsta-Rulez/Cookie_Monsters_Scanner.git
 cd Cookie_Monsters_Scanner
+python -em virtualenv venv
+source venv/bin/activate
+pip install -r requirements.txt
 python3 Cookie_Monsters_Scanner
 ```
 
